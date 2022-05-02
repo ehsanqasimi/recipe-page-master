@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 7% 3%;
+}
+
+.container .tips {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  gap: 20px;
+}
+
+.container .tips .tips-child {
+  width: auto;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .tips .tips-child p {
+  color: #BDBDBD;
+}
+
+.container .tips .tips-child img {
+  width: 40px;
+  padding: 5px;
+}
+
+.instructions .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+}
+
+.instructions .list .par {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #333333;
+}
+
+.instructions .list .num {
+  margin-right: 5px;
+  background-color: #F2994A;
+  height: 36px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Playfair Display;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.ingredients {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 700;
+  padding: 20px 5px;
+}
+
+.cracker {
+  padding: 10px;
+}
+
+.cracker .do {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+input {
+  accent-color: #F2994A;
+}
+
+.cake {
+  padding: 10px;
+}
+
+.cake .do {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.tips-title {
+  font-family: 'Monstserrat', sans-serif;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 9.75px;
+}
+
+.tips-desc {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 9.75px;
+  color: #333333;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    padding-left: 15%;
+    padding-right: 10%;
+    font-family: 'Monstserrat';
+  }
+  .container {
+    padding: 7% 2%;
+  }
+  .container .tips {
+    width: 200px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    float: right;
+    padding: 40px 40px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  .first-par {
+    display: -ms-grid;
+    display: grid;
+  }
+  .first-par h1 {
+    padding-bottom: 20px;
+  }
+  .first-par .par {
+    width: 50%;
+    margin-top: 100px;
+    display: -ms-grid;
+    display: grid;
+  }
+  .first-par .par p {
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
